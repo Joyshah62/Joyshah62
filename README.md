@@ -1,10 +1,3 @@
-<!-- ANIMATED HEADER - DARK/LIGHT -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:58a6ff,100:1a1b27&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=c9d1d9&descAlignY=55" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=1e293b&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=475569&descAlignY=55" />
-  <img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=1e293b&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=475569&descAlignY=55" />
-</picture>
-
 <!-- TYPING SVG -->
 <div align="center">
 
@@ -217,10 +210,3 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 💡 *I train models to catch bad guys and bad code. Turns out both respond well to proper validation.*
 
 </div>
-
-<!-- ANIMATED FOOTER - DARK/LIGHT -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:58a6ff,100:1a1b27&height=120&section=footer" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=120&section=footer" />
-  <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=120&section=footer" />
-</picture>
