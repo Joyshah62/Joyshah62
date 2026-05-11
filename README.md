@@ -1,22 +1,28 @@
-<!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=8b949e&descAlignY=55"/>
+<!-- ANIMATED HEADER - DARK/LIGHT -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:58a6ff,100:1a1b27&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=c9d1d9&descAlignY=55" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=1e293b&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=475569&descAlignY=55" />
+  <img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=220&section=header&text=Joy%20Shah&fontSize=75&fontColor=1e293b&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20NLP%20Researcher&descSize=18&descColor=475569&descAlignY=55" />
+</picture>
 
 <!-- TYPING SVG -->
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=M.S.+Computer+Science+%40+Rutgers+University;Building+AI+Systems+That+Actually+Ship;Looking+for+Summer+2026+SWE+%2F+AI%2FML+Internships)](https://git.io/typing-svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=M.S.+Computer+Science+%40+Rutgers+University;Building+AI+Systems+That+Actually+Ship;Looking+for+Summer+2026+SWE+%2F+AI%2FML+Internships" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=M.S.+Computer+Science+%40+Rutgers+University;Building+AI+Systems+That+Actually+Ship;Looking+for+Summer+2026+SWE+%2F+AI%2FML+Internships" />
+  <img alt="typing" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=M.S.+Computer+Science+%40+Rutgers+University;Building+AI+Systems+That+Actually+Ship;Looking+for+Summer+2026+SWE+%2F+AI%2FML+Internships" />
+</picture>
 
 </div>
 
-<!-- ANIMATED WAVE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<!-- ABOUT ME WITH ANIMATED GIF -->
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> About Me
+## 🔮 About Me
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<img align="right" alt="Coding" width="380" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-I'm a Computer Science grad student at **Rutgers University** (M.S., expected 2027) who builds AI systems that work in the real world. I've deployed ML models to **50+ enterprise clients**, published in **IEEE**, and currently teach **100+ undergrads** as a Part-Time Lecturer/TA for CS336.
+I'm a Computer Science grad student at **Rutgers University** (M.S., expected 2027) who's passionate about building AI systems that go beyond the notebook — things that actually ship, scale, and solve real problems. I run recitations for **100+ undergrads** in CS336, have an **IEEE publication** on biometric security, and spent my internships building ML-powered products that made it to production.
 
 🧠 **What I'm Into:**
 - **LLMs & AI Agents** — autonomous systems that reason, plan, and use tools. Deep into LangChain, LangGraph, RAG pipelines, and local inference with open-source models.
@@ -31,20 +37,19 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 
 <br clear="both">
 
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<!-- TECH STACK WITH ANIMATED ICONS -->
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30" /> Tech Stack
+## ⚡ Tech Stack
 
 <div align="center">
 
 ### Languages
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4b72-be0c-b3cae31e0530.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52f1adb1c97.gif" width="50">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,javascript,cpp,kotlin&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,java,javascript,cpp,kotlin&theme=light" />
+  <img alt="languages" src="https://skillicons.dev/icons?i=python,java,javascript,cpp,kotlin&theme=light" />
+</picture>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -54,7 +59,12 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 
 ### AI / ML
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=light" />
+  <img alt="ml" src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=light" />
+</picture>
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
@@ -65,8 +75,12 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 ### Web & Frameworks
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="50">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=light" />
+  <img alt="web" src="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=light" />
+</picture>
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -74,6 +88,13 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### Databases
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,dynamodb,elasticsearch&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,dynamodb,elasticsearch&theme=light" />
+  <img alt="db" src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,dynamodb,elasticsearch&theme=light" />
+</picture>
+
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -81,8 +102,12 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 ### Cloud & DevOps
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7571-4f21-8e10-b3d693aca2b3.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="50">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,git,linux&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,docker,git,linux&theme=light" />
+  <img alt="devops" src="https://skillicons.dev/icons?i=aws,docker,git,linux&theme=light" />
+</picture>
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -91,50 +116,66 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 
 </div>
 
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<!-- GITHUB STATS -->
-## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="30" /> GitHub Stats
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=joyshah62&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&icon_color=58a6ff" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=joyshah62&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joyshah62&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-</div>
-
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<!-- TROPHIES -->
-## <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30" /> Trophies
+## 📊 GitHub Stats
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=joyshah62&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=joyshah62&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=joyshah62&theme=default&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+  <img width="49%" alt="stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=joyshah62&theme=default&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=joyshah62&theme=tokyonight&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=joyshah62&theme=default&hide_border=true" />
+  <img width="49%" alt="streak" src="https://streak-stats.demolab.com/?user=joyshah62&theme=default&hide_border=true" />
+</picture>
 
 </div>
-
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<!-- ACTIVITY GRAPH -->
-## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30" /> Activity Graph
 
 <div align="center">
 
-[![Joy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=joyshah62&theme=tokyo-night&hide_border=true&area=true&custom_title=Joy's%20Contribution%20Graph)](https://github.com/joyshah62)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=joyshah62&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=joyshah62&theme=default&hide_border=true&layout=compact&langs_count=8" />
+  <img width="40%" alt="langs" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=joyshah62&theme=default&hide_border=true&layout=compact&langs_count=8" />
+</picture>
 
 </div>
 
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<!-- SNAKE ANIMATION -->
-## <img src="https://user-images.githubusercontent.com/74038190/216122049-276bc7a5-c328-4942-831c-68196f7eac7d.png" width="30" /> Contribution Snake
+## 🏆 Trophies
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=joyshah62&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=joyshah62&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=7" />
+  <img alt="trophies" src="https://github-profile-trophy.vercel.app/?username=joyshah62&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=7" />
+</picture>
+
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joyshah62&theme=tokyo-night&hide_border=true&area=true&custom_title=Joy's%20Contribution%20Graph" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joyshah62&theme=github-light&hide_border=true&area=true&custom_title=Joy's%20Contribution%20Graph" />
+  <img alt="activity" src="https://github-readme-activity-graph.vercel.app/graph?username=joyshah62&theme=github-light&hide_border=true&area=true&custom_title=Joy's%20Contribution%20Graph" />
+</picture>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
 
 <div align="center">
   
@@ -146,34 +187,40 @@ I'm a Computer Science grad student at **Rutgers University** (M.S., expected 20
 
 </div>
 
-<!-- ANIMATED LINE -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<!-- CONNECT -->
-## <img src="https://user-images.githubusercontent.com/74038190/216120986-01b5e1c1-7758-4a65-b4fd-5dc58a5d9a39.png" width="30" /> Connect With Me
+## 🌐 Connect With Me
 
 <div align="center">
 
-[![portfolio](https://img.shields.io/badge/joyshah.tech-100000?style=for-the-badge&logo=safari&logoColor=white&labelColor=0d1117&color=58a6ff)](https://joyshah.tech)
-[![linkedin](https://img.shields.io/badge/linkedin-100000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=0A66C2)](https://www.linkedin.com/in/joy-shah62/)
-[![email](https://img.shields.io/badge/gmail-100000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=EA4335)](mailto:joypshah2003@gmail.com)
-[![github](https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=6e7681)](https://github.com/joyshah62)
+<a href="https://joyshah.tech">
+  <img src="https://img.shields.io/badge/joyshah.tech-100000?style=for-the-badge&logo=safari&logoColor=white&labelColor=0d1117&color=58a6ff" />
+</a>
+<a href="https://www.linkedin.com/in/joy-shah62/">
+  <img src="https://img.shields.io/badge/linkedin-100000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=0A66C2" />
+</a>
+<a href="mailto:joypshah2003@gmail.com">
+  <img src="https://img.shields.io/badge/gmail-100000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=EA4335" />
+</a>
+<a href="https://github.com/joyshah62">
+  <img src="https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=6e7681" />
+</a>
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-</div>
 
-<div align="center">
-  
 [![](https://visitcount.itsvg.in/api?id=joyshah62&icon=6&color=1)](https://visitcount.itsvg.in)
 
 💡 *I train models to catch bad guys and bad code. Turns out both respond well to proper validation.*
 
 </div>
 
-<!-- ANIMATED FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=120&section=footer"/>
+<!-- ANIMATED FOOTER - DARK/LIGHT -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:58a6ff,100:1a1b27&height=120&section=footer" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=120&section=footer" />
+  <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:dbeafe,50:3b82f6,100:dbeafe&height=120&section=footer" />
+</picture>
