@@ -1,11 +1,5 @@
-<!--
-  Header and focus graphics are stored in this repo (assets/), so nothing here
-  depends on a third-party animation service that can go down. Both SVGs adapt
-  to light and dark GitHub themes on their own via prefers-color-scheme.
--->
-
 <p align="center">
-  <img src="./assets/header.svg" alt="Joy Shah — M.S. Computer Science @ Rutgers University" width="100%">
+  <img src="header.svg" alt="Joy Shah — M.S. Computer Science @ Rutgers University" width="100%">
 </p>
 
 <p align="center">
@@ -31,7 +25,7 @@ Most of my work sits at the seam between research and infrastructure: retrieval 
 
 ## Focus
 
-<img src="./assets/focus.svg" alt="Focus areas: retrieval and LLM systems, NLP and interpretability, production engineering" width="100%">
+<img src="focus.svg" alt="Focus areas: retrieval and LLM systems, NLP and interpretability, production engineering" width="100%">
 
 ---
 
