@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Joy Shah — M.S. Computer Science at Rutgers University, building LLM and NLP systems">
+  <title>Joy Shah — AI/ML Engineer</title>
+
+  <style>
+    :root {
+      --bg:        #f6f8fa;
+      --panel:     #ffffff;
+      --line:      #d8dee4;
+      --text:      #0d1117;
+      --muted:     #5b6572;
+      --accent:    #1f6feb;
+      --signal:    #bc4c00;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:      #0b0f14;
+        --panel:   #0d1117;
+        --line:    #1f2630;
+        --text:    #e6edf3;
+        --muted:   #8b949e;
+        --accent:  #58a6ff;
+        --signal:  #f0a35e;
+      }
+    }
+    .bg      { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+    .grid    { stroke: var(--line); stroke-width: 1; opacity: .5; }
+    .name    { fill: var(--text); font: 700 44px ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; letter-spacing: -1px; }
+    .role    { fill: var(--accent); font: 500 18px ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .meta    { fill: var(--muted); font: 400 13px ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; letter-spacing: .5px; }
+    .stage   { fill: none; stroke: var(--line); stroke-width: 1.5; }
+    .stagelb { fill: var(--muted); font: 500 10px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 1px; }
+    .wire    { stroke: var(--line); stroke-width: 1.5; }
+    .caret   { fill: var(--signal); }
+    .rule    { fill: var(--accent); }
+    .glowA   { fill: var(--accent); }
+    .glowS   { fill: var(--signal); }
+  </style>
+
+  <rect class="bg" x=".5" y=".5" width="999" height="249" rx="14"/>
+
+  <!-- faint measurement grid, right half only -->
+  <g class="grid">
+    <line x1="640" y1="40" x2="640" y2="210"/>
+    <line x1="960" y1="40" x2="960" y2="210"/>
+    <line x1="640" y1="125" x2="960" y2="125" opacity=".4"/>
+  </g>
+
+  <!-- accent rule -->
+  <rect class="rule" x="44" y="46" width="4" height="140" rx="2"/>
+
+  <!-- name -->
+  <text class="name" x="70" y="92">Joy Shah</text>
+
+  <!-- streamed role lines -->
+  <defs>
+    <clipPath id="c0"><rect x="70" y="112" height="26" width="0"><animate attributeName="width" values="0;470;470" keyTimes="0;0.133;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c1"><rect x="70" y="112" height="26" width="0"><animate attributeName="width" values="0;0;470;470" keyTimes="0;0.333;0.466;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="70" y="112" height="26" width="0"><animate attributeName="width" values="0;0;470;470" keyTimes="0;0.667;0.8;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.31;0.333;1" dur="9s" repeatCount="indefinite"/>
+    <text class="role" x="70" y="131" clip-path="url(#c0)">M.S. Computer Science @ Rutgers University</text>
+    <rect class="caret" x="70" y="115" width="9" height="18">
+      <animate attributeName="x" values="70;540;540" keyTimes="0;0.133;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.334;0.643;0.667;1" dur="9s" repeatCount="indefinite"/>
+    <text class="role" x="70" y="131" clip-path="url(#c1)">LLM systems, RAG pipelines, applied NLP</text>
+    <rect class="caret" x="70" y="115" width="9" height="18">
+      <animate attributeName="x" values="70;70;510;510" keyTimes="0;0.333;0.466;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.667;0.668;0.977;1" dur="9s" repeatCount="indefinite"/>
+    <text class="role" x="70" y="131" clip-path="url(#c2)">Open to Summer 2026 SWE / AI-ML internships</text>
+    <rect class="caret" x="70" y="115" width="9" height="18">
+      <animate attributeName="x" values="70;70;540;540" keyTimes="0;0.667;0.8;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text class="meta" x="70" y="176">NEW JERSEY&#160;&#160;·&#160;&#160;JOYSHAH.TECH&#160;&#160;·&#160;&#160;GITHUB.COM/JOYSHAH62</text>
+
+  <!-- signature: a request moving through an inference pipeline -->
+  <g transform="translate(660,88)">
+    <line class="wire" x1="56" y1="24" x2="104" y2="24"/>
+    <line class="wire" x1="160" y1="24" x2="208" y2="24"/>
+
+    <rect class="stage" x="0"   y="0" width="56" height="48" rx="10"/>
+    <rect class="stage" x="104" y="0" width="56" height="48" rx="10"/>
+    <rect class="stage" x="208" y="0" width="56" height="48" rx="10"/>
+
+    <text class="stagelb" x="28"  y="70" text-anchor="middle">RETRIEVE</text>
+    <text class="stagelb" x="132" y="70" text-anchor="middle">RANK</text>
+    <text class="stagelb" x="236" y="70" text-anchor="middle">ANSWER</text>
+
+    <!-- stage activation -->
+    <rect x="4"   y="4" width="48" height="40" rx="7" class="glowA" opacity="0">
+      <animate attributeName="opacity" values="0;.22;.22;0;0" keyTimes="0;0.05;0.22;0.3;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="108" y="4" width="48" height="40" rx="7" class="glowA" opacity="0">
+      <animate attributeName="opacity" values="0;0;.22;.22;0;0" keyTimes="0;0.33;0.38;0.55;0.63;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="212" y="4" width="48" height="40" rx="7" class="glowS" opacity="0">
+      <animate attributeName="opacity" values="0;0;.28;.28;0" keyTimes="0;0.66;0.71;0.93;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- the token in flight -->
+    <circle class="glowS" cx="28" cy="24" r="4.5">
+      <animate attributeName="cx" values="28;28;132;132;236;236" keyTimes="0;0.22;0.38;0.55;0.71;1" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

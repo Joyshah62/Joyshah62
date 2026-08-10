@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" width="1000" height="210" role="img" aria-label="Focus areas: retrieval and LLM systems, NLP and interpretability, production engineering">
+  <title>Focus areas</title>
+
+  <style>
+    :root {
+      --panel:  #ffffff;
+      --line:   #d8dee4;
+      --text:   #0d1117;
+      --muted:  #5b6572;
+      --accent: #1f6feb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --panel:  #0d1117;
+        --line:   #1f2630;
+        --text:   #e6edf3;
+        --muted:  #8b949e;
+        --accent: #58a6ff;
+      }
+    }
+    .card  { fill: var(--panel); stroke: var(--line); stroke-width: 1; }
+    .h     { fill: var(--text);  font: 700 15px ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; letter-spacing: .3px; }
+    .p     { fill: var(--muted); font: 400 12.5px ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .ink   { stroke: var(--accent); stroke-width: 1.6; fill: none; stroke-linecap: round; }
+    .dot   { fill: var(--accent); }
+  </style>
+
+  <!-- 1. retrieval + llm systems -->
+  <g>
+    <rect class="card" x=".5" y=".5" width="313" height="209" rx="12"/>
+    <g transform="translate(26,26)">
+      <rect class="ink" x="0" y="0" width="26" height="7" rx="2"/>
+      <rect class="ink" x="0" y="11" width="26" height="7" rx="2"/>
+      <rect class="ink" x="0" y="22" width="26" height="7" rx="2"/>
+      <path class="ink" d="M36 14.5 h14 m-5 -5 l5 5 l-5 5"/>
+      <circle class="dot" cx="60" cy="14.5" r="4"/>
+    </g>
+    <text class="h" x="26" y="94">Retrieval &amp; LLM systems</text>
+    <text class="p" x="26" y="122">RAG pipelines, hybrid search,</text>
+    <text class="p" x="26" y="142">tool-using agents, dedup and</text>
+    <text class="p" x="26" y="162">metadata-aware ranking.</text>
+  </g>
+
+  <!-- 2. nlp + interpretability -->
+  <g transform="translate(343,0)">
+    <rect class="card" x=".5" y=".5" width="313" height="209" rx="12"/>
+    <g transform="translate(26,26)">
+      <rect class="ink" x="0" y="0" width="30" height="30" rx="3"/>
+      <path class="ink" d="M10 0 v30 M20 0 v30 M0 10 h30 M0 20 h30" opacity=".45"/>
+      <rect class="dot" x="10" y="10" width="10" height="10" opacity=".85"/>
+      <path class="ink" d="M40 22 l8 -8 l6 6 l10 -14"/>
+    </g>
+    <text class="h" x="26" y="94">NLP &amp; interpretability</text>
+    <text class="p" x="26" y="122">Transformer fine-tuning plus</text>
+    <text class="p" x="26" y="142">attribution work — Integrated</text>
+    <text class="p" x="26" y="162">Gradients, LIME, error analysis.</text>
+  </g>
+
+  <!-- 3. production engineering -->
+  <g transform="translate(686,0)">
+    <rect class="card" x=".5" y=".5" width="313" height="209" rx="12"/>
+    <g transform="translate(26,26)">
+      <path class="ink" d="M2 9 L18 1 L34 9 L18 17 Z"/>
+      <path class="ink" d="M2 9 v13 l16 8 l16 -8 V9" opacity=".55"/>
+      <path class="ink" d="M18 17 v13" opacity=".55"/>
+      <circle class="dot" cx="52" cy="8" r="3.5"/>
+      <path class="ink" d="M52 14 v10" opacity=".55"/>
+      <circle class="dot" cx="52" cy="28" r="3.5"/>
+    </g>
+    <text class="h" x="26" y="94">Production engineering</text>
+    <text class="p" x="26" y="122">FastAPI and Flask services,</text>
+    <text class="p" x="26" y="142">Docker, AWS, CI/CD, and the</text>
+    <text class="p" x="26" y="162">latency budget that goes with it.</text>
+  </g>
+</svg>
